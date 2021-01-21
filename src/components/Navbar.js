@@ -23,7 +23,7 @@ class Navbar extends Component {
         return (
             <nav className="glass">
             <img src={profilepic} className="profilepic"></img>
-            <h2>Vikalp <mark>Kaushik</mark></h2>
+            <h2>Manuel <mark>Vargas Vega</mark></h2>
             <p>Full Stack Developer</p>
             <ul>
             <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
