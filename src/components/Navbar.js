@@ -26,7 +26,7 @@ class Navbar extends Component {
             <h2>Manuel <mark>Vargas Vega</mark></h2>
             <p>Full Stack Developer</p>
             <ul>
-            <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
+            <Navitem item="Home" tolink="/react-app"  activec={this.activeitem}></Navitem>
             <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
             <Navitem item="Portfolio" tolink="/portfolio"  activec={this.activeitem}></Navitem>
             <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
