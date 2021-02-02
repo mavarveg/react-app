@@ -13,7 +13,7 @@ import Contact from './contents/Contact';
 
 const GlobalStyle = createGlobalStyle`
   body{
-  background: linear-gradient(${props => props.theme.mode === 'dark' ? '#868f96, #596164' : '(#ff758c,#764ba2'});
+  background: linear-gradient(${props => props.theme.mode === 'light' ? '#868f96, #596164' : '(#ff758c,#764ba2'});
   }
 
 `
@@ -41,7 +41,7 @@ function App() {
     </Route>
     <div class="back1 glass" onClick={e => setTheme(
       theme.mode === 'dark' ? {mode: 'light'} : {mode: 'dark'}
-    )}><i class={theme.mode === 'dark' ? "fa fa-sun i1" : "fa fa-moon i1"}></i></div>
+    )}><i class={theme.mode === 'light' ? "fa fa-sun i1" : "fa fa-moon i1"}></i></div>
     </div>
     </Router>
     </>
